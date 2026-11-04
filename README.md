@@ -1,43 +1,44 @@
-<!-- Profile README for muhammad-aseem. SVG motion uses SMIL; no scripts or embedded CSS. -->
+<!-- Profile README for muhammad-aseem. SVG motion uses SMIL; technology icons are hosted in this repository. -->
 
 <p align="center">
-  <img src="./assets/hero.svg" alt="Muhammad Aseem — BSc Computing student interested in Python, web development, and AI" width="100%" />
+  <img src="./assets/hero.svg" alt="Muhammad Aseem — BSc Computing student interested in software development, web development, and AI" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/typing.svg" alt="Growing with Python. Building for the web. Exploring AI." width="400" />
+  <img src="./assets/typing.svg" alt="Exploring new languages. Python is my favourite. Building for the web. Learning backend and AI." width="440" />
 </p>
 
 ## About Me
 
-I'm **Muhammad Aseem**, a **BSc Computing student** interested in Python development, backend engineering, artificial intelligence, and web development.
+I'm **Muhammad Aseem**, a **BSc Computing student** interested in software development, programming languages, backend engineering, artificial intelligence, and web development.
 
-I have frontend web development experience from my internship at **Waan Tech**. I'm now strengthening my Python foundations and learning how to build applications beyond the browser.
+**Python is my favourite programming language.** I enjoy expanding my programming skills and exploring different ways to build software.
+
+I have frontend web development experience from my internship at **Waan Tech**. I'm now strengthening my programming foundations and learning how to build applications beyond the browser.
 
 <details>
 <summary><b>More about my background</b></summary>
 
-My practical experience is in frontend web development. Python, machine learning, and backend engineering are areas I am actively learning and developing toward.
+My practical experience is in frontend web development. I'm developing my programming foundations while learning backend engineering and machine learning.
 
 </details>
 
 ## Technical Skills
 
-**Programming and web languages**
+**Programming languages**
 
 <p>
-  <img src="./assets/badges/python.svg" alt="Python · fundamentals" height="34" width="195" />
-  <img src="./assets/badges/html.svg" alt="HTML" height="34" width="64" />
-  <img src="./assets/badges/css.svg" alt="CSS" height="34" width="57" />
-  <img src="./assets/badges/javascript.svg" alt="JavaScript" height="34" width="111" />
+  <img src="./assets/icons/python.svg" alt="Python" title="Python — my favourite language; learning the fundamentals" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/javascript.svg" alt="JavaScript" title="JavaScript" width="64" height="64" />
 </p>
 
-**Frontend frameworks and CSS tooling**
+**Web technologies**
 
 <p>
-  <img src="./assets/badges/tailwind.svg" alt="Tailwind CSS" height="34" width="126" />
-  <img src="./assets/badges/bootstrap.svg" alt="Bootstrap" height="34" width="103" />
-  <img src="./assets/badges/sass.svg" alt="Sass / SCSS" height="34" width="118" />
+  <img src="./assets/icons/html5.svg" alt="HTML" title="HTML" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/css3.svg" alt="CSS" title="CSS" width="64" height="64" />
 </p>
 
 ## Development Tools and IDEs
@@ -45,35 +46,31 @@ My practical experience is in frontend web development. Python, machine learning
 **Version control and development platforms**
 
 <p>
-  <img src="./assets/badges/git.svg" alt="Git" height="34" width="57" />
-  <img src="./assets/badges/github.svg" alt="GitHub" height="34" width="80" />
+  <img src="./assets/icons/git.svg" alt="Git" title="Git" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/github.svg" alt="GitHub" title="GitHub" width="64" height="64" />
 </p>
 
 **IDEs and editors**
 
 <p>
-  <img src="./assets/badges/vscode.svg" alt="Visual Studio Code" height="34" width="172" />
-  <img src="./assets/badges/pycharm.svg" alt="PyCharm" height="34" width="87" />
-</p>
-
-**Notebook environment**
-
-<p>
-  <img src="./assets/badges/jupyter.svg" alt="Jupyter" height="34" width="87" />
+  <img src="./assets/icons/vscode.svg" alt="Visual Studio Code" title="Visual Studio Code" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/pycharm.svg" alt="PyCharm" title="PyCharm" width="64" height="64" />
 </p>
 
 ## Currently Learning / Career Direction
 
-- **Python:** strengthening fundamentals and problem-solving skills.
+- **Programming:** strengthening Python and JavaScript fundamentals and problem-solving skills.
 - **Backend development:** learning Flask, SQL, and APIs.
 - **Machine learning:** studying supervised and unsupervised learning fundamentals.
 
-I'm working toward a career in **Python and backend development**, with a longer-term interest in building AI-powered applications.
+I'm working toward a career in **software development and backend engineering**, with a longer-term interest in building AI-powered applications.
 
 <details>
 <summary><b>What I want to build toward</b></summary>
 
-I'm interested in connecting clean web interfaces to Python backends, understanding how applications store and exchange data, and learning where AI can solve practical problems.
+I'm interested in connecting clean web interfaces to backends, understanding how applications store and exchange data, and learning where AI can solve practical problems.
 
 These are learning goals and career interests, rather than claims of professional expertise.
 
@@ -95,4 +92,4 @@ These are learning goals and career interests, rather than claims of professiona
 
 Explore my code and follow my learning journey on GitHub.
 
-<a href="https://github.com/muhammad-aseem"><img src="./assets/badges/connect.svg" alt="GitHub · muhammad-aseem" height="34" width="211" /></a>
+<a href="https://github.com/muhammad-aseem"><img src="./assets/icons/github.svg" alt="Connect with muhammad-aseem on GitHub" title="Connect with muhammad-aseem on GitHub" width="56" height="56" /></a>

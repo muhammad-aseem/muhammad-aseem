@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
   <title id="title">Muhammad Aseem — BSc Computing student</title>
-  <desc id="desc">Python, web development, and artificial intelligence. Charcoal and soft peach introduction with a subtle looping line animation.</desc>
+  <desc id="desc">Software development, web development, and artificial intelligence. Python is my favourite language. Charcoal and soft peach introduction with a subtle looping line animation.</desc>
   <defs>
     <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#F2BFA7"/><stop offset="1" stop-color="#F2BFA7" stop-opacity="0.15"/></linearGradient>
     <clipPath id="edge"><rect x="1" y="1" width="998" height="278" rx="18"/></clipPath>
@@ -19,5 +19,5 @@
   <path d="M49 231H169" stroke="#F2BFA7" stroke-width="2">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
   </path>
-  <text x="951" y="259" text-anchor="end" fill="#8B949E" font-family="Consolas, monospace" font-size="12" letter-spacing="1">PYTHON / WEB / AI</text>
+  <text x="951" y="259" text-anchor="end" fill="#8B949E" font-family="Consolas, monospace" font-size="12" letter-spacing="1">CODE / WEB / AI</text>
 </svg>
