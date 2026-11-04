@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Aseem — BSc Computing student</title>
+  <desc id="desc">Python, web development, and artificial intelligence. Charcoal and soft peach introduction with a subtle looping line animation.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#F2BFA7"/><stop offset="1" stop-color="#F2BFA7" stop-opacity="0.15"/></linearGradient>
+    <clipPath id="edge"><rect x="1" y="1" width="998" height="278" rx="18"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="#0D1117" stroke="#30363D"/>
+  <g clip-path="url(#edge)">
+    <path d="M0 0H220" transform="translate(48 1)" stroke="url(#accent)" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="48 1;732 1;48 1" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    </path>
+  </g>
+  <rect x="48" y="46" width="5" height="17" rx="2.5" fill="#F2BFA7"/>
+  <text x="67" y="60" fill="#F2BFA7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">LEARN. BUILD. REFINE.</text>
+  <text x="48" y="147" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="70" font-weight="650" letter-spacing="-2.5">Muhammad Aseem</text>
+  <text x="51" y="190" fill="#8B949E" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23">BSc Computing student</text>
+  <path d="M49 231H951" stroke="#30363D"/>
+  <path d="M49 231H169" stroke="#F2BFA7" stroke-width="2">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <text x="951" y="259" text-anchor="end" fill="#8B949E" font-family="Consolas, monospace" font-size="12" letter-spacing="1">PYTHON / WEB / AI</text>
+</svg>
