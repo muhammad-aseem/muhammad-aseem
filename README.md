@@ -14,12 +14,14 @@ I'm **Muhammad Aseem**, a **BSc Computing student** interested in software devel
 
 **Python is my favourite programming language.** I enjoy expanding my programming skills and exploring different ways to build software.
 
-I have frontend web development experience from my internship at **Waan Tech**. I'm now strengthening my programming foundations and learning how to build applications beyond the browser.
+I have frontend web development experience from my internship at **Waan Tech**. My frontend work includes **JavaScript, Tailwind CSS, SCSS, and Bootstrap**. I'm now strengthening my programming foundations and learning how to build applications beyond the browser.
 
 <details>
 <summary><b>More about my background</b></summary>
 
 My practical experience is in frontend web development. I'm developing my programming foundations while learning backend engineering and machine learning.
+
+**University coursework:** I built a Java juice-shop ordering program that welcomed the user, displayed three fruit juice options with their prices, and handled the user's selection.
 
 </details>
 
@@ -31,6 +33,8 @@ My practical experience is in frontend web development. I'm developing my progra
   <img src="./assets/icons/python.svg" alt="Python" title="Python — my favourite language; learning the fundamentals" width="64" height="64" />
   &nbsp;
   <img src="./assets/icons/javascript.svg" alt="JavaScript" title="JavaScript" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/java.svg" alt="Java" title="Java — university coursework" width="64" height="64" />
 </p>
 
 **Web technologies**
@@ -39,6 +43,12 @@ My practical experience is in frontend web development. I'm developing my progra
   <img src="./assets/icons/html5.svg" alt="HTML" title="HTML" width="64" height="64" />
   &nbsp;
   <img src="./assets/icons/css3.svg" alt="CSS" title="CSS" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/tailwindcss.svg" alt="Tailwind CSS" title="Tailwind CSS" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/sass.svg" alt="SCSS" title="SCSS" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" width="64" height="64" />
 </p>
 
 ## Development Tools and IDEs
@@ -61,7 +71,7 @@ My practical experience is in frontend web development. I'm developing my progra
 
 ## Currently Learning / Career Direction
 
-- **Programming:** strengthening Python and JavaScript fundamentals and problem-solving skills.
+- **Programming:** strengthening Python fundamentals and problem-solving skills while building on my Java and JavaScript experience.
 - **Backend development:** learning Flask, SQL, and APIs.
 - **Machine learning:** studying supervised and unsupervised learning fundamentals.
 
