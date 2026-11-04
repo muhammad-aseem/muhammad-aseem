@@ -69,6 +69,16 @@ My practical experience is in frontend web development. I'm developing my progra
   <img src="./assets/icons/pycharm.svg" alt="PyCharm" title="PyCharm" width="64" height="64" />
 </p>
 
+**Daily AI tools**
+
+<p>
+  <img src="./assets/icons/chatgpt.svg" alt="ChatGPT" title="ChatGPT — used daily" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/claude-code.svg" alt="Claude Code" title="Claude Code — used daily" width="64" height="64" />
+  &nbsp;
+  <img src="./assets/icons/github-copilot.svg" alt="GitHub Copilot" title="GitHub Copilot — used daily" width="64" height="64" />
+</p>
+
 ## Currently Learning / Career Direction
 
 - **Programming:** strengthening Python fundamentals and problem-solving skills while building on my Java and JavaScript experience.
