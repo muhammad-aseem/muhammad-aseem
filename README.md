@@ -99,12 +99,12 @@ These are learning goals and career interests, rather than claims of professiona
 ## Live GitHub Contribution Activity
 
 <p align="center">
-  <a href="https://github.com/users/muhammad-aseem/contributions">
-    <img src="./assets/contribution-stats.svg?v=54020712e48d" alt="GitHub contribution totals and streaks for muhammad-aseem" width="720" />
+  <a href="https://muhammad-aseem.github.io/muhammad-aseem/" title="Open the interactive GitHub activity dashboard">
+    <img src="./assets/contribution-stats.svg?v=2d5ebc8f07b5" alt="GitHub contribution totals, public pushes, and daily activity for muhammad-aseem" width="840" />
   </a>
 </p>
 
-<p align="center"><sub>Refreshes automatically every six hours from GitHub contribution history · Asia/Karachi</sub></p>
+<p align="center"><sub>Refreshes every six hours · Asia/Karachi. GitHub contribution totals may include anonymous private activity, but no private repository names are retrieved or shown. Push and commit counts come only from public events. <a href="https://muhammad-aseem.github.io/muhammad-aseem/">Open the interactive activity dashboard.</a></sub></p>
 
 ## Connect With Me
 

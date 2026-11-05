@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090d16" />
+    <meta
+      name="description"
+      content="Muhammad Aseem's public GitHub contribution activity and learning progress."
+    />
+    <title>GitHub Activity — Muhammad Aseem</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23f2bfa7'/%3E%3Ctext x='20' y='26' text-anchor='middle' font-family='sans-serif' font-size='17' font-weight='700' fill='%23090d16'%3EMA%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div id="loader" class="loader-screen" role="status" aria-live="polite">
+      <span class="loader-mark" aria-hidden="true">MA</span>
+      <span class="loader-spinner" aria-hidden="true"></span>
+      <span>Gathering public activity…</span>
+    </div>
+    <main id="dashboard" class="dashboard" hidden>
+      <header class="topbar">
+        <a class="brand" href="https://github.com/muhammad-aseem" aria-label="Muhammad Aseem on GitHub">
+          <span class="brand-mark">MA</span>
+          <span class="brand-name">MUHAMMAD ASEEM<span>/ ACTIVITY</span></span>
+        </a>
+        <nav class="top-links" aria-label="Related links">
+          <a href="https://github.com/muhammad-aseem">GitHub profile <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/muhammad-aseem/My-Portfolio">Portfolio <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <section class="intro">
+        <p class="eyebrow"><span class="live-dot"></span> GITHUB ACTIVITY SNAPSHOT</p>
+        <h1>Progress, <span>made visible.</span></h1>
+        <p class="intro-copy">
+          A living snapshot of the projects I build, the days I show up, and the skills I’m growing.
+        </p>
+        <div class="updated-pill"><span class="pulse-dot"></span><span id="updated-at">Loading update time</span></div>
+      </section>
+
+      <section id="summary" class="summary-grid" aria-label="Contribution summary"></section>
+
+      <section class="panel contribution-panel" aria-labelledby="heatmap-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">CONSISTENCY, NOT A COMPETITION</p>
+            <h2 id="heatmap-title">A year in the making</h2>
+            <p class="panel-copy">Each tile is one day of GitHub contributions; totals may include anonymous private activity.</p>
+          </div>
+          <div class="heatmap-legend" aria-label="Contribution intensity scale">
+            <span>Less</span><i class="level-0"></i><i class="level-1"></i><i class="level-2"></i><i class="level-3"></i><i class="level-4"></i><span>More</span>
+          </div>
+        </div>
+        <div class="heatmap-scroll">
+          <div id="heatmap" class="heatmap" role="group" aria-label="GitHub contribution activity by day"></div>
+        </div>
+        <p id="heatmap-detail" class="heatmap-detail" aria-live="polite">Select a day to inspect its activity.</p>
+      </section>
+
+      <section class="panel activity-panel" aria-labelledby="activity-title">
+        <div class="panel-heading activity-heading">
+          <div>
+            <p class="eyebrow">SMALL STEPS ADD UP</p>
+            <h2 id="activity-title">Daily activity</h2>
+            <p id="activity-description" class="panel-copy">Contributions made to public projects.</p>
+          </div>
+          <div class="controls">
+            <div class="segmented" role="group" aria-label="Activity period">
+              <button type="button" data-range="30" aria-pressed="false">30 days</button>
+              <button type="button" data-range="90" aria-pressed="true">90 days</button>
+              <button type="button" data-range="365" aria-pressed="false">1 year</button>
+            </div>
+            <div class="segmented metric-controls" role="group" aria-label="Activity type">
+              <button type="button" data-metric="contributions" aria-pressed="true">Contributions</button>
+              <button type="button" data-metric="commits" aria-pressed="false">Commits</button>
+              <button type="button" data-metric="pushes" aria-pressed="false">Pushes</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-shell">
+          <svg id="activity-chart" viewBox="0 0 1000 280" role="img" aria-label="Daily public activity chart"></svg>
+        </div>
+        <p id="chart-note" class="chart-note" aria-live="polite"></p>
+      </section>
+
+      <section class="bottom-grid">
+        <article class="panel streak-panel">
+          <p class="eyebrow">KEEPING THE MOMENTUM</p>
+          <h2>Showing up matters.</h2>
+          <div id="streak-summary" class="streak-summary"></div>
+          <p class="panel-copy">A streak counts consecutive days with at least one GitHub contribution. Totals can include anonymous private activity; repository names are never shown.</p>
+        </article>
+        <article class="panel recent-panel">
+          <p class="eyebrow">RECENT PUBLIC PUSHES</p>
+          <h2>Code, shipped.</h2>
+          <div id="recent-pushes" class="recent-list"></div>
+          <p class="panel-copy">Push totals come only from GitHub’s recent public event feed (up to 300 events). Private repository names are never fetched or displayed.</p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Contribution totals may include anonymous private activity; push and commit events are public-only. Refreshes every six hours.</p>
+        <a href="https://github.com/muhammad-aseem">Back to profile ↑</a>
+      </footer>
+    </main>
+    <noscript><p class="noscript">This activity dashboard needs JavaScript to render the interactive charts.</p></noscript>
+  </body>
+</html>

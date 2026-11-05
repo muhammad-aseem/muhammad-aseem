@@ -11,9 +11,14 @@ on:
       - README.md
       - .github/scripts/update-contribution-stats.mjs
       - .github/workflows/update-contribution-stats.yml
+      - activity/app.js
+      - activity/index.html
+      - activity/styles.css
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: profile-contribution-stats
@@ -22,12 +27,15 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Generate the contribution card
+      - name: Generate contribution stats and activity data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
@@ -36,10 +44,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/contribution-stats.svg
+          git add README.md assets/contribution-stats.svg activity/data.json
           if git diff --cached --quiet; then
             echo "Contribution stats are already current."
-            exit 0
+          else
+            git commit -m "Update GitHub contribution stats"
+            git push
           fi
-          git commit -m "Update GitHub contribution stats"
-          git push
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: activity
+      - name: Deploy dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
