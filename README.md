@@ -98,8 +98,13 @@ These are learning goals and career interests, rather than claims of professiona
 
 ## Live GitHub Contribution Activity
 
-GitHub updates my contribution history directly. [View my current contribution calendar](https://github.com/users/muhammad-aseem/contributions).
+<p align="center">
+  <a href="https://github.com/users/muhammad-aseem/contributions">
+    <img src="./assets/contribution-stats.svg?v=e7b94401638e" alt="GitHub contribution totals and streaks for muhammad-aseem" width="720" />
+  </a>
+</p>
 
+<p align="center"><sub>Refreshes automatically every six hours from GitHub contribution history · Asia/Karachi</sub></p>
 
 ## Connect With Me
 
