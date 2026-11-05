@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title description">
+  <title id="title">GitHub contribution activity for muhammad-aseem</title>
+  <desc id="description">209 contributions in the past year, a current streak of 2 days, and a longest streak of 4 days.</desc>
+  <style>
+    .card{fill:#0d1117;stroke:#30363d}
+    .divider{stroke:#30363d}
+    .value{fill:#e6edf3;font:700 34px system-ui,-apple-system,Segoe UI,sans-serif}
+    .label{fill:#f2bfa7;font:600 14px system-ui,-apple-system,Segoe UI,sans-serif}
+    .detail{fill:#8b949e;font:13px system-ui,-apple-system,Segoe UI,sans-serif}
+  </style>
+  <rect class="card" x=".5" y=".5" width="719" height="179" rx="14"/>
+  <path class="divider" d="M240 30v120M480 30v120"/>
+  
+      <g text-anchor="middle">
+        <text x="120" y="77" class="value">209</text>
+        <text x="120" y="111" class="label">CONTRIBUTIONS</text>
+        <text x="120" y="139" class="detail">PAST YEAR</text>
+      </g>
+      <g text-anchor="middle">
+        <text x="360" y="77" class="value">2</text>
+        <text x="360" y="111" class="label">CURRENT STREAK</text>
+        <text x="360" y="139" class="detail">DAYS</text>
+      </g>
+      <g text-anchor="middle">
+        <text x="600" y="77" class="value">4</text>
+        <text x="600" y="111" class="label">LONGEST STREAK</text>
+        <text x="600" y="139" class="detail">DAYS · PAST YEAR</text>
+      </g>
+</svg>
