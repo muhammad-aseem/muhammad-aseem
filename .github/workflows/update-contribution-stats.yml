@@ -1,0 +1,45 @@
+name: Update profile contribution stats
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/scripts/update-contribution-stats.mjs
+      - .github/workflows/update-contribution-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contribution-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate the contribution card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node .github/scripts/update-contribution-stats.mjs
+      - name: Commit changed stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/contribution-stats.svg
+          if git diff --cached --quiet; then
+            echo "Contribution stats are already current."
+            exit 0
+          fi
+          git commit -m "Update GitHub contribution stats"
+          git push
