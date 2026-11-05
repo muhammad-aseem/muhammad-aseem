@@ -100,12 +100,12 @@ These are learning goals and career interests, rather than claims of professiona
 
 <p align="center">
   <a href="https://github.com/muhammad-aseem?tab=overview">
-    <img src="https://streak-stats.demolab.com/?user=muhammad-aseem&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=F2BFA7&amp;fire=F2BFA7&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=F2BFA7&amp;sideLabels=E6EDF3&amp;dates=8B949E&amp;border_radius=12&amp;timezone=Asia%2FRiyadh&amp;mode=daily&amp;card_width=495&amp;card_height=195" alt="Live GitHub statistics for muhammad-aseem: total contributions, current daily streak, and longest daily streak" width="495" />
+    <img src="https://streak-stats.demolab.com/?user=muhammad-aseem&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=F2BFA7&amp;fire=F2BFA7&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=F2BFA7&amp;sideLabels=E6EDF3&amp;dates=8B949E&amp;border_radius=12&amp;timezone=Asia%2FKarachi&amp;mode=daily&amp;refresh=20261105&amp;card_width=495&amp;card_height=195" alt="Live GitHub statistics for muhammad-aseem: total contributions, current daily streak, and longest daily streak" width="495" />
   </a>
 </p>
 
 <p align="center">
-  <sub>Updates automatically from my GitHub contribution history. <a href="https://github.com/DenverCoder1/github-readme-streak-stats">Powered by GitHub Readme Streak Stats.</a></sub>
+  <sub>Generated from GitHub contribution history; stats may lag while the card service refreshes. <a href="https://github.com/DenverCoder1/github-readme-streak-stats">Powered by GitHub Readme Streak Stats.</a></sub>
 </p>
 
 ## Connect With Me
