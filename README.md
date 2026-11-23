@@ -100,7 +100,7 @@ These are learning goals and career interests, rather than claims of professiona
 
 <p align="center">
   <a href="https://muhammad-aseem.github.io/muhammad-aseem/" title="Open the interactive GitHub activity dashboard">
-    <img src="./assets/contribution-stats.svg?v=77e2602f8550" alt="GitHub contribution totals, public pushes, and daily activity for muhammad-aseem" width="840" />
+    <img src="./assets/contribution-stats.svg?v=f7a29a51fee4" alt="GitHub contribution totals, public pushes, and daily activity for muhammad-aseem" width="840" />
   </a>
 </p>
 
